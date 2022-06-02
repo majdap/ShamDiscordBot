@@ -31,11 +31,12 @@ client.on('message', message => {
         client.commands.get('ping').execute(message, args)
     }
     else if(command === 'github'){
-        client.commands.get('github').execute(message, args)
+        client.commands.get('github').execute(message, args, Discord)
     }
     else if(command === 'help'){
         client.commands.get('help').execute(message, args)
     }
+    
 })
 
-client.login('OTgwODcyOTA1OTM4MzI1NTM0.GnQofa.rAiWbD0QrJZK8SytCGBoFXn4qaufJL6J4Tjm-I');
+client.login('OTgwODcyOTA1OTM4MzI1NTM0.GG6jEA.awc9qeaizwPU-03nz7PUx48bMjqJkD5cUNUDXE');
