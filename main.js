@@ -39,4 +39,4 @@ client.on('message', message => {
     
 })
 
-client.login('OTgwODcyOTA1OTM4MzI1NTM0.GG6jEA.awc9qeaizwPU-03nz7PUx48bMjqJkD5cUNUDXE');
+client.login('### PRIVATE KEY REMOVED ###');
